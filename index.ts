@@ -5,8 +5,8 @@ const port = 3000
 
 
 
-app.get('/', (req, res) => {
-    res.send('Hello World!')
+app.get('/', (req: Request , res: Response ) => {
+    res.send('Namaste Duniya!')
 })
 
 app.listen(port, () => {
